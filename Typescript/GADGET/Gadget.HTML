@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GADGET</title>
+  <link rel="stylesheet" href="Gadget.css">
+</head>
+<body>
+  <div class="header">
+    <nav id="navbar">
+      <img src="image/Logo.png" class="Logo" alt="logo">
+      <ul>
+        <li><a href="contact.html">Contact Us <img src="image/call.png" class="call" alt="Call" width="15px"></a></li>
+        <li><a href="location.html">Locate Us <img src="image/location.png" class="location" alt="Location" width="15px"></a></li>
+        <li><a href="services.html">Our Service</a></li>
+      </ul>
+    </nav>
+
+    <div class="box">
+      <div class="offer-box">
+        <h2>What We Offer:</h2>
+        <ul>
+          <li>Brand New & UK Used iPhones</li>
+          <li>Samsung Phones (Brand New & UK Used)</li>
+          <li>iWatches – All Series Available</li>
+          <li>Expert Repairs – Quick, reliable fixes</li>
+          <li>Gadget Accessories & Upgrades</li>
+          <li>Best prices on swap deals</li>
+          <li>iOS UPGRADE – Update your iOS to the latest version</li>
+        </ul>
+      </div>
+
+      <div class="images">
+        <img src="image/iphone 13 pro max.webp" alt="iPhone">
+        <img src="image/galaxy Z fold special.webp" alt="Samsung">
+        <img src="image/iphone 11 pro.avif" alt="iPhone 2">
+        <img src="image/iphone 16 pro max.jpeg" alt="iPhone 3">
+        <img src="image/galaxy s25+.jpg" alt="Samsung 2">
+      </div>
+    </div>
+  </div>
+
+  <section class="welcome">
+    <h1>Welcome to JP's GadgetZone</h1>
+    <p>Your one-stop platform to explore, order, and enjoy the latest phone gadgets at unbeatable prices. Shop smart. Stay ahead.</p>
+    <p>CONTACT: +234 9051325050, +234 9065868632</p>
+  </section>
+
+  <script>
+    const navbar = document.getElementById("navbar");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
+  </script>
+</body>
+</html>

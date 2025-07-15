@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STORE PRODUCT</title>
+  <link rel="stylesheet" href="Em.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="container-3">
+    <div class="navbar">
+    <div class="logo">
+      <img src="image/images/logo.png" alt="logo">
+    </div>
+    <nav>
+      <ul id ="MenuItems">
+        <li><a href="Em.html">HOME</a></li>
+        <li><a href="productEm.HTML">PRODUCT</a></li>
+        <li><a href="aboEm.HTML">ABOUT</a></li>
+        <li><a href="contactEm.HTML">CONTACT</a></li>
+        <li><a href="accEm.HTML">ACCOUNT</a></li>
+        <li><a href="cartEm.HTML">CART</a>
+        <img src="image/images/shopping-cart-icon.jpg" alt="cart" width="30px" height="30px"></li>
+      </ul>
+    </nav>
+    <!----<img src="image/images/cart.png" alt="cart" width="30px" height="30px">---->
+    <img src="image/images/menu.png" alt="cart" class="menu-icon" onclick="menutoggle()">
+    </div>
+  </div>
+  <!-- cart items details -->
+    
+  <div class="small-container cart-page">
+    <table>
+      <tr>
+        <th>Products</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+      </tr>
+
+      <tr>
+        <td>
+
+          <div class="cart-info">
+            <img src="image/images/buy-1.jpg" alt="gallery-1">
+            <div class="cart-text">
+              <p>Red Printed T-Shirt by HRX</p>
+              <small>Price: $150.00</small><br>
+              <a href="">Remove</a>
+              <a href="">Add to Cart</a>
+            </div>
+          </div>
+
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>$150.00</td>
+      </tr>
+
+      <tr>
+        <td>
+
+          <div class="cart-info">
+            <img src="image/images/buy-2.jpg" alt="gallery-1">
+            <div class="cart-text">
+              <p>Red Printed T-Shirt by HRX</p>
+              <small>Price: $250.00</small><br>
+              <a href="">Remove</a>
+              <a href="">Add to Cart</a>
+            </div>
+          </div>
+
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>$250.00</td>
+      </tr>
+
+      <tr>
+        <td>
+
+          <div class="cart-info">
+            <img src="image/images/buy-3.jpg" alt="gallery-1">
+            <div class="cart-text">
+              <p>Red Printed T-Shirt by HRX</p>
+              <small>Price: $500.00</small><br>
+              <a href="">Remove</a>
+              <a href="">Add to Cart</a>
+            </div>
+          </div>
+
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>$500.00</td>
+      </tr>
+
+    </table>
+    <div class="total-price">
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td>$900.00</td>
+        </tr>
+        <tr>
+          <td>Tax</td>
+          <td>$20.00</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>$9200.00</td>
+        </tr>
+      </table>
+
+
+
+  </div>
+  <button onclick="topFunction()" id="topBtn" title="Go to top">↑</button>
+
+
+
+
+    <!---------footer---------->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android and IOS mobile phone.</p>
+          <div class="app-logo">
+            <img src="image/images/play-store.png" alt="play-store">
+            <img src="image/images/app-store.png" alt="app-store">
+          </div>
+        </div>
+
+        <div class="col-2">
+          <img src="image/images/logo-white.png" alt="logo-white">
+          <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+        </div>
+
+        <div class="col-3">
+          <h3>Useful Link</h3>
+          <ul>
+            <li><a href="">Coupons</a></li>
+            <li><a href="">Blog Post</a></li>
+            <li><a href="">Return Policy</a></li>
+            <li><a href="">Join Affiliate</a></li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h3>Follow us</h3>
+          <ul>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="https://www.youtube.com/@VeronicaChibuzor">YouTube</a></li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <h3>For More</h3>
+          <p>You can contact us via email or phone.</p>
+          <li><a href="http://127.0.0.1:5500/contactEm.HTML">Contact Us</a></li>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright  2025 - Micheal Beauty </p>
+    </div>
+  </div>
+  <!---------js for toggle menu---------->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (MenuItems.style.maxHeight == "0px") {
+        MenuItems.style.maxHeight = "200px";
+      } else {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+  <script>let topBtn = document.getElementById("topBtn");
+window.onscroll = () => {
+  topBtn.style.display = window.scrollY > 300 ? "block" : "none";
+};
+function topFunction() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+</script>
+</body>
+</html>
